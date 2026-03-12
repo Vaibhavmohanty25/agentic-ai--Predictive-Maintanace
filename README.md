@@ -1,4 +1,4 @@
-# 🔧 Agentic AI – Predictive Maintenance System
+#  Agentic AI – Predictive Maintenance System
 
 A demo-grade, fully offline agentic AI system designed for predictive maintenance, failure diagnosis, autonomous scheduling, and manufacturing insights.
 
@@ -11,9 +11,9 @@ Built for hackathon environments:
 
 ---
 
-# 🚀 Features
+#  Features
 
-### ✅ Live Sensor Simulation
+###  Live Sensor Simulation
 
 Mocked real-time sensor readings:
 
@@ -22,11 +22,11 @@ Mocked real-time sensor readings:
 * Pressure
 * RPM
 
-### ✅ Risk Scoring Agent
+###  Risk Scoring Agent
 
 Computes failure probability + contributing factors.
 
-### ✅ Diagnosis Agent
+###  Diagnosis Agent
 
 Rule-based expert system provides:
 
@@ -35,15 +35,15 @@ Rule-based expert system provides:
 * Triggered rules
 * Recommended actions
 
-### ✅ Scheduling Agent
+###  Scheduling Agent
 
 Autonomously assigns maintenance slots based on severity.
 
-### ✅ Feedback Agent
+###  Feedback Agent
 
 Logs technician feedback and closes job tickets.
 
-### ✅ Insights Agent
+###  Insights Agent
 
 Provides KPI dashboard:
 
@@ -52,7 +52,7 @@ Provides KPI dashboard:
 * Failure rate
 * High-risk assets
 
-### ✅ Demo Mode
+###  Demo Mode
 
 Two simulation modes:
 
@@ -61,7 +61,7 @@ Two simulation modes:
 
 ---
 
-# 🧠 System Architecture
+#  System Architecture
 
 ```
 SENSORS → RISK ENGINE → DIAGNOSIS → SCHEDULING → FEEDBACK → INSIGHTS
@@ -90,7 +90,7 @@ requirements.txt
 
 ---
 
-# 🛠 Installation
+#  Installation
 
 ### 1. Clone Repository
 
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Running the System
+#  Running the System
 
 ### 1. Start Backend (FastAPI)
 
@@ -131,7 +131,7 @@ streamlit run frontend/app.py
 
 ---
 
-# 🧪 Demo Mode Usage
+#  Demo Mode Usage
 
 ### Switch to failure mode:
 
@@ -153,7 +153,7 @@ POST /demo/reset
 
 ---
 
-# 🎯 Demo Flow (Judge-Friendly)
+#  Demo Flow (Judge-Friendly)
 
 1. Open **Live Sensors** → show mock telemetry
 2. Switch to **Failure Mode**
@@ -165,7 +165,7 @@ POST /demo/reset
 
 ---
 
-# 🎓 Tech Stack
+#  Tech Stack
 
 **Backend:** FastAPI, SQLite
 **Frontend:** Streamlit
@@ -174,18 +174,18 @@ POST /demo/reset
 
 ---
 
-# 📄 License
+#  License
 
 MIT License
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Pull requests welcome!
 
 ---
 
-# 📬 Contact
+#  Contact
 
 For any queries or improvements, feel free to reach out.
